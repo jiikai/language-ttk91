@@ -1,0 +1,89 @@
+{
+  scopeName: 'source.ttk91'
+  name: 'ttk91'
+  fileTypes: [
+    'k91'
+  ]
+  patterns: [
+    {
+      match: '\\b( *);.*\\b'
+      name: 'comment.line.semicolon.ttk91'
+    }
+    {
+      match: '\\b(?i:(JUMP|JNEG|JZER|JPOS|JNNEG|JNZER|JNPOS|JLES|JEQU|JGRE
+      |JNLES|JNEQU|JNGRE))\\b'
+      name: 'keyword.control.forking.ttk91'
+    }
+    {
+      match: '\\b(?i:(ADD|SUB|MUL|DIV|MOD|AND|OR|XOR|SHL|SHR|NOT|SHRA|COMP))\\b'
+      name: 'support.function.arithmetic-logical.ttk91'
+    }
+    {
+      match: '\\b(?i:(LOAD|STORE|IN|OUT))\\b'
+      name: 'support.function.data.ttk91'
+    }
+    {
+      match: '\\b(?i:(PUSH|POP|CALL|EXIT))\\b'
+      name: 'support.function.stack.ttk91'
+    }
+    {
+      match: '\\b(?i:(CALL|EXIT|SVC))\\b'
+      name: 'support.function.subroutine-system.ttk91'
+    }
+    {
+      match: '\\b(?i:(EQU|DC|DS|DEF))\\b'
+      name: 'support.function.assembler-directives.ttk91'
+    }
+    {
+      match: '\\b(?i:(NOP))\\b'
+      name: 'support.function.other.ttk91'
+    }
+    {
+      match: '\\b(?i:(HALT|TIME|DATE|READ|WRITE))\\b'
+      name: 'support.function.system.ttk91'
+    }
+    {
+      match: '\\b(?i:(R[0-7]|SP|FP|PC))\\b'
+      name: 'support.variable.register.ttk91'
+    }
+    {
+      match: '\\b(=|)(?i:(KBD|CRT|STDIN|STDOUT))\\b'
+      name: 'support.variable.target-device-or-stream.ttk91'
+    }
+    {
+      match: '\\b[0-9]+\\b'
+      name: 'constant.numeric.decimal.ttk91'
+    }
+    {
+      match: '\\b0x[0-9A-F]+\\b'
+      name: 'constant.numeric.hexadecimal.ttk91'
+    }
+    {
+      match: '\\baaa\\b'
+      begin: '"'
+      end: '"'
+      name: 'string.quoted.double'
+    }
+    #{
+      #match: '\\b(?i:[A-ZÅÄÖ_0-9]+)\\b'
+      #begin: '\\(b|,|, )\\b'
+      #end: '(\n;+|([\t ]+(EQU|DC|DS|DEF))'
+      #name: 'constant.character.valid-symbols.ttk91'
+    #}
+    #{
+      #match: '\\b(?i:[A-ZÅÄÖ_]{1}[A-ZÅÄÖ_0-9]{0,7})\\b'
+      #name: 'entity.name.section.ttk91'
+    #}
+    {
+      match: '\\B( ?= ?| ?@ ?)\\b'
+      name: 'keyword.operator.addressing.ttk91'
+    }
+    {
+      match: '\\b(,)\\B'
+      name: 'keyword.operator.comma-separator.ttk91'
+    }
+
+
+
+  ]
+}
