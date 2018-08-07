@@ -5,8 +5,5 @@
   'editor':
     'autoIndentOnPaste': true
     'softTabs': true
-    'tabLength': 2
+    'tabLength': 4
     'commentStart': '; '
-    'increaseIndentPattern': ''
-    'decreaseIndentPattern': ''
-    'decreaseNextIndentPattern': ''
