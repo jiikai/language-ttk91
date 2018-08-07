@@ -6,7 +6,7 @@
   ]
   patterns: [
     {
-      match: '\\b( *);.*\\b'
+      match: '\\b;.*\\b'
       name: 'comment.line.semicolon.ttk91'
     }
     {
@@ -23,7 +23,7 @@
       name: 'support.function.data.ttk91'
     }
     {
-      match: '\\b(?i:(PUSH|POP|CALL|EXIT))\\b'
+      match: '\\b(?i:(PUSHR|POPR|CALL|EXIT))\\b'
       name: 'support.function.stack.ttk91'
     }
     {
