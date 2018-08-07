@@ -6,7 +6,7 @@
   ]
   patterns: [
     {
-      match: '\\b;.*\\b'
+      match: '\\B;.*\\b'
       name: 'comment.line.semicolon.ttk91'
     }
     {

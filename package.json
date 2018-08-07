@@ -1,7 +1,7 @@
 {
   "name": "language-ttk91",
   "main": "./lib/language-ttk91",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Grammar spec for Titokone machine language",
   "keywords": [
       "ttk91",
