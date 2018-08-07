@@ -32,7 +32,7 @@
     }
     {
       match: '\\b(?i:(EQU|DC|DS|DEF))\\b'
-      name: 'support.function.assembler-directives.ttk91'
+      name: 'support.function.compiler-directives.ttk91'
     }
     {
       match: '\\b(?i:(NOP))\\b'
@@ -44,7 +44,7 @@
     }
     {
       match: '\\b(?i:(R[0-7]|SP|FP|PC))\\b'
-      name: 'support.variable.register.ttk91'
+      name: 'support.storage.register.ttk91'
     }
     {
       match: '\\b(=|)(?i:(KBD|CRT|STDIN|STDOUT))\\b'
@@ -57,12 +57,6 @@
     {
       match: '\\b0x[0-9A-F]+\\b'
       name: 'constant.numeric.hexadecimal.ttk91'
-    }
-    {
-      match: '\\baaa\\b'
-      begin: '"'
-      end: '"'
-      name: 'string.quoted.double'
     }
     #{
       #match: '\\b(?i:[A-ZÅÄÖ_0-9]+)\\b'
