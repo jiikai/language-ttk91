@@ -2,7 +2,7 @@
 
 
 
-This is a grammar specification for the *ttk91* symbolic machine, or assembly language used by the virtual computer environment [***titokone*** ](https://github.com/titokone/titokone). It enables the text editor [***Atom***](https://atom.io/)'s syntax highlighting to pick up the various keywords, operators etc used in TTK91.
+This is a grammar specification for the symbolic machine, or assembly language *ttk91* used by the virtual computer environment [**titokone** ](https://github.com/titokone/titokone). It enables the text editor [**Atom**](https://atom.io/)'s syntax highlighting to pick up the various keywords, operators etc used in TTK91.
 
 ****Installation:****
 
