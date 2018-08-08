@@ -6,9 +6,11 @@ This is a grammar specification for the symbolic machine, or assembly language *
 
 ****Installation:****
 
-Close Atom if you have it running. Then type in a terminal of your choice:
+Terminal:
 
-`apm install jiikai/language-ttk91`
+`apm install language-ttk91`
+
+Or search using the term "ttk91" in the package installer in Atom's GUI.
 
 Atom should automatically detect files with *.k91* file extension as being written in ttk91, set the grammar manually via `CTRL+SHIFT+L` if it does not.
 
