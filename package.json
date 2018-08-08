@@ -10,7 +10,7 @@
       "tito",
       "grammar"
   ],
-  "repository": "https://github.com/atom/language-ttk91",
+  "repository": "https://github.com/jiikai/language-ttk91",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
