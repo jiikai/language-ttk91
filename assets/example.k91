@@ -1,0 +1,12 @@
+x DC 0
+
+MAIN  load r1, x
+      add r1, =2
+      out r1, =crt
+      in r1, =kbd
+  NXT sub r1, =1
+      comp r1, =0
+      jgre NXT
+
+    ; comment
+svc sp, =halt

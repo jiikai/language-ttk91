@@ -2,8 +2,8 @@
 # https://github.com/atom/language-gfm/blob/master/settings/gfm.cson
 
 '.source.ttk91':
-  'editor':
-    'autoIndentOnPaste': true
-    'softTabs': true
-    'tabLength': 4
-    'commentStart': '; '
+  editor:
+    autoIndentOnPaste: false
+    softTabs: true
+    tabLength: 2
+    commentStart: '; '

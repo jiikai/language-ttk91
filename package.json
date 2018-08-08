@@ -1,8 +1,8 @@
 {
   "name": "language-ttk91",
-  "main": "./lib/language-ttk91",
-  "version": "0.1.2",
+  "version": "0.0.0",
   "description": "Grammar spec for Titokone machine language",
+  "homepage": "https://atom.github.io/language-ttk91",
   "keywords": [
       "ttk91",
       "k91",
@@ -14,6 +14,9 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/language-ttk91/issues"
   },
   "dependencies": {
   }
